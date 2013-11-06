@@ -5,7 +5,7 @@
 
 body{
   background-color:black;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  /*font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;*/
   background:no-repeat;
   background-position: center;
   background-origin: 0 0 0;
@@ -16,13 +16,15 @@ text2{
   font-weight: 100;
   color:#222;
   line-height: 40px;
+  letter-spacing: 4px;
 }
 
 .hero-unit{
-  background-color: #eee;
+  background-color: white;
   padding: 45px;
   margin-bottom: 0px;
   float: top;
+  border-radius: 0px;
 }
 .container-fluid{
   padding-top: 140px;
@@ -35,15 +37,18 @@ text2{
 .top-bar{
   background: black;  
 }
+b{
+font-size: 15px;}
 
 p{
-  font-size: 14px;
+  font-size: 14.5px;
+
   margin: 0px;
   line-height: 20px;
 }
 
 p-hero{
-  font-size: 14px;
+  font-size: 14.5px;
   margin: 0px;
   line-height: 60px;
 }
@@ -59,7 +64,7 @@ p-hero{
 
 .img-polaroid{
   width: 170px;
-  padding: 2px;
+  padding: 0px;
   background: white;
   border: 1px solid rgba(0,0,0,0.2);
   box-shadow: none;
