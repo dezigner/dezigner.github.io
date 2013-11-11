@@ -19,15 +19,48 @@ text2{
   letter-spacing: 4px;
 }
 
+t3{
+  font-size: 30px;
+  font-weight: 100;
+  color:#222;
+}
+
+a t3:hover{
+  color: #EC005F;
+}
+
+a{
+  color: #00CEE0  ;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #EC005F;
+}
+
 .hero-unit{
   background-color: white;
   padding: 45px;
   margin-bottom: 0px;
   float: top;
   border-radius: 0px;
+  border-color: #aaa;
+  border-style: solid 1px;
+}
+
+.navbar-fixed-top{
+  height: 45px;
+  background-color: white;
+  padding: 45px;
+  margin-bottom: 0px;
+  float: top;
+  border-radius: 0px;
+  border-color: #aaa;
+  border-bottom-style: solid;
+  border-width: thin;
 }
 .container-fluid{
-  padding-top: 140px;
+  padding-top: 100px;
 }
 
 .row-fluid{
@@ -41,20 +74,21 @@ b{
 font-size: 15px;}
 
 p{
-  font-size: 14.5px;
+  font-size: 15.5px;
 
   margin: 0px;
-  line-height: 20px;
+  line-height: 22px;
 }
 
 p-hero{
-  font-size: 14.5px;
+  font-size: 15.5px;
   margin: 0px;
   line-height: 60px;
 }
 
 .left-pane{
   padding-left: 0px;
+  padding-top: 70px;
 }
 
 .fill{
@@ -62,8 +96,14 @@ p-hero{
   background-color: rgba(0,0,0,0.2);
 }
 
+.split-line{
+  margin-top: 25px;
+  padding-top: 1px;
+  background-color: rgba(0,0,0,0.2);
+}
+
 .img-polaroid{
-  width: 170px;
+  width: 100%;
   padding: 0px;
   background: white;
   border: 1px solid rgba(0,0,0,0.2);
@@ -71,6 +111,46 @@ p-hero{
 }
 
 .body-text{
-  margin-top: -100px;
   margin-left: -10px;
 }
+
+.projects{
+  padding-top: 70px;
+  border-top: 1px;
+}
+
+.sidebar-nav-fixed {
+     position:fixed;
+     top:60px;
+     width:21.97%;
+ }
+
+.thumbnail{
+  display: -webkit-inline-flex;
+  max-width: 100%;
+  background-color: white;
+  padding: 0px;
+  margin-top: 10px;
+  border: none;
+  
+}
+
+.tabs-left{
+  position: fixed;
+}
+
+.tab-pills{
+  padding: 10px;
+  padding-left: 0px;
+  /*background-color: #eee;*/
+}
+
+.tab-pills{
+margin: 0 0 1px 0px;
+}
+
+.homepage-body-text{
+padding-top: 70px;
+
+}
+ 
