@@ -257,4 +257,7 @@ img.css:hover {
   margin-top: 30px;
   }
 
+.image-rounded{
+ border-radius: 10px;
+}
 

@@ -168,6 +168,10 @@ margin: 0 0 1px 0px;
 
 .homepage-body-text{
 padding-top: 70px;
-
 }
- 
+
+.img-rounded{
+ border-radius: 12px;
+ border: 10px #FF7E7E solid;
+}
+
