@@ -17,25 +17,56 @@
     body { background-color:rgb(214,59,81); }
     /*write any style code here in css format*/
     </style>
+
+    <script type="text/javascript">
+
+      var gimage= new Image();
+      gimage.src="gifts/3.jpg"
+    
+      var gimage2= new Image();
+      gimage2.src ="gifts/1.jpg"
+    
+      // document.body.appendChild(gimage)
+      // document.body.appendChild(gimage2)
+
+    </script>  
+
+
  </head>
  <body>
   <div class = "hero-unit">
     <div class="span12">
       <ul><p3>because we believe that every </p3></ul>
-      <ul><p3><p1>gift</p1> should have <p1> a beautiful story</p1></p3></ul>
+      <ul><p3><p2>gift</p2> should have <p2> a beautiful story</p2></p3></ul>
     </div>
-    
+  
     <div class="span12">
-      <div class="span5">
-        <img src="story.png" max-width="1000px">
-      </div>
-      <div class="span6">
-        <a class="button" href="Samples">See Samples</a>
-      </div>      
-    </div>
-    <div class="span12">
+      <a href="#" onmouseover="rollover('example', gimage)" onmouseout="rollover('example', gimage2)"><img src="gifts/1.jpg" name="example"></a>
+      <ul id="image-list"></ul>
+    </div>    
+  </div>
+
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+for(var i = 1; i <= 10; ++i) {
+  $("<img src='gifts/" + i + ".jpg'>").appendTo($('#image-list'))
+}
+function rollover(imagename, newsrc)
+{
+  document.images[imagename].src=newsrc.src
+}
+
+</script>
+
+
+
+<!--     <div class="span12">
       <div class="booking">
-        <a href="Book a Gift">Add My Gift to Your Calendar</a>
+        <a href="Book a Gift">to book call 9865654000</a>
         <form><input class="text-box" type="text"></form>
         <button2>send</button2>
         <script type="text/javascript">
@@ -49,8 +80,7 @@
         }
         </script>
       </div>
-  </div>
-  </div>
+  </div> -->
 
 
 
@@ -87,8 +117,7 @@ $.get("test/try.txt", function(response){
 })
 </script>
 
- </body>
-</html>
+
 -->
 
 <!--
@@ -111,5 +140,8 @@ $.get("test/try.txt", function(response){
 
             <p>Learn how to decorate cakes, cupcakes, cookies and candy with Wilton classes at your local retailer. No matter what your skill level, we have a class for you.Learn how to decorate cakes, cupcakes, cookies and candy with Wilton classes at your local retailer. No matter what your skill level, we have a class for you.Learn how to decorate cakes, cupcakes, cookies and candy with Wilton classes at your local retailer.</p>
           </div>    
-      
--->
+   
+<ul id="image-list" style="list-style: none;"></ul> -->   
+
+
+

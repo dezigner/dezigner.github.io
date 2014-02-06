@@ -17,9 +17,17 @@ ul{
 
 img{
   width: 500px;
+  padding-top: 0px;
+  margin-left: 0px;
+}
+
+/*img{
+  width: 500px;
   padding-top: 150px;
   margin-left: -90px;
-}
+}*/
+
+
 
 
 p2{
@@ -92,7 +100,7 @@ button2{
 }
 
 .hero-unit {
-  background: white;
+  background: none;
   height: 685px;
   border-radius: 0px;
   padding-top: 40px;
