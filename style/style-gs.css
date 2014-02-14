@@ -28,27 +28,6 @@ img{
 }*/
 
 
-
-
-p2{
-  padding-top: 300px;
-}
-
-pdf{
-  background: #3E82E9;
-  padding: 20px;
-  line-height: 100px;
-  border-radius: 20px;
-}
-
-pdf a{
-  color: white;
-}
-
-pdf a:hover{
-color: #eee;
-}
-
 .row-fluid [class*="span"]:first-child{
   margin-left: 30px;
 }
@@ -57,34 +36,11 @@ color: #eee;
   margin-left: 30px;
 }
 
-.project-brief{
-background: #eee;
-}
-
-.center{
-  margin-left: 10px;
-}
-
-.side-bar{
-  padding: 10px;
-  background: none;
-}
-
-.li{
-  line-height: 40px;
-}
-
-.block{
-  background: #eee;
-}
-
 input[type="text"]{
   margin-top: 10px;
   height: 35px;
 }
-button2{
-  display:none;
-}
+
 
 .nav-tabs{
   vertical-align: right
@@ -99,31 +55,8 @@ button2{
   background: #FF7979;
 }
 
-.hero-unit {
-  background: none;
-  height: 685px;
-  border-radius: 0px;
-  padding-top: 40px;
-  font-size: 50px;
-  color: #aaa;
-  /*color: rgb(249,235,254);*/ 
-}
 
-p{
-  margin: 0px;  
-  font-size: 14px;
-  text-align: left;
-}
 
-p3{
-  color: #eee;
-  margin: 0px;  
-  padding-top: 30px;
-}
-
-p1{
-  color: rgb(215,59,81);
-}
 
 a.button{
   color: red;
@@ -131,6 +64,7 @@ a.button{
   line-height: 690px; 
   padding-left: 320px;
 }
+
 button-nav{
   color: white;
   border-radius: 0px;
@@ -139,37 +73,13 @@ button-nav{
   padding-right: 10px;
   background: rgb(215,59,81)
 }
+
 button-nav:hover{
   border: 3px;
   border-color: black;
   color: #EEE;  
 }
 
-}
-
-h1 {
-    font-size: 14px;
-}
-
-h1 small {
-  display: block;
-  margin-top: 8px;
-  font-size: 14px;
-}
-
-h2{
-  margin-top: 40px;
-  margin-bottom: -3px;
-  font-weight: normal;
-  font-size: 18px;
-  margin-left: 0px;
-  color:#FF7979;
-  
-}
-
-h3 {
-  font-size: 14px;
-  }
   
 a {
   line-height: 30px;
@@ -210,7 +120,6 @@ a:hover {
   padding-top: 10px;
   padding-left: 10px;
  } 
- 
 .thumbnail {
   display: block;
   margin-left: 20px;
@@ -270,3 +179,37 @@ img.css:hover {
  border-radius: 10px;
 }
 
+/*text styling*/
+
+t1{
+  font-size: 30px;
+  line-height: 50px;
+}
+
+
+/*div section styling*/
+
+.hero-unit {
+  background: none;
+  border-radius: 0px;
+  font-size: 70px;
+  color: white;
+  padding: 0px;
+  /*color: rgb(249,235,254);*/ 
+}
+
+.showcase{
+  font-size: 20px;
+  line-height: 30px;
+  background: #eee;
+}
+
+.center-align{
+  /*padding-left: 100px;*/
+  height: 100px;
+}
+
+.splash-above-fold{
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
