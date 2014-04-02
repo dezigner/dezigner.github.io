@@ -1,0 +1,33 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:black;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  background:no-repeat;
+  background-position: center;
+  background-origin: 0 0 0;
+}
+
+
+.hero-unit{
+  padding: 0px;
+  padding-top: 20px;
+  line-height: 15px;
+  border-bottom: 1px solid #e2e2e2;
+  border-radius: 0px;
+}
+.navbar-fixed-top {
+
+}
+
+a{
+  color: #00CEE0 ;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #EC005F;
+}

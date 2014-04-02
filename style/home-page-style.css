@@ -53,7 +53,7 @@ a:hover{
 
 .hero-unit{
   background-color: white;
-  padding: 45px;
+  padding: 15px;
   margin-bottom: 0px;
   float: top;
   border-radius: 0px;
@@ -62,7 +62,7 @@ a:hover{
 }
 
 .navbar-fixed-top{
-  height: 45px;
+  height: 25px;
   background-color: white;
   padding: 45px;
   margin-bottom: 0px;
@@ -82,7 +82,7 @@ a:hover{
 }
 
 .tabs-left{
-  padding-left: 60px;
+  padding-left: 40px;
 }
 
 .top-bar{
@@ -134,7 +134,7 @@ note{
 }
 
 .body-text{
-  margin-left: -10px;
+  /*margin-left: -10px;*/
 }
 
 .projects{
@@ -189,5 +189,15 @@ padding-top: 70px;
 .img-rounded{
  border-radius: 2px;
  border: 1px #eee solid;
+}
+
+.right-col{
+  float: right;
+}
+
+.img-profile{
+  float: right;
+  max-width: 366px; 
+  border: 4px solid black;
 }
 
