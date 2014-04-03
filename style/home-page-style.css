@@ -197,7 +197,15 @@ padding-top: 70px;
 
 .img-profile{
   float: right;
-  max-width: 366px; 
+  /*max-width: 366px; */
   border: 4px solid black;
 }
 
+.body-text{
+  max-width: 800px;
+}
+
+.works-module{
+  vertical-align: bottom;
+  /*text-align: center;*/
+}
