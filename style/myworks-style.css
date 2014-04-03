@@ -60,7 +60,7 @@ a:hover{
 
 .hero-unit{
   background-color: white;
-  padding: 45px;
+  /*padding: 45px;*/
   margin-bottom: 0px;
   float: top;
   border-radius: 0px;
@@ -71,7 +71,9 @@ a:hover{
 .navbar-fixed-top{
   height: 45px;
   background-color: white;
-  padding: 45px;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  padding-left: 30px;
   margin-bottom: 0px;
   float: top;
   border-radius: 0px;
@@ -90,7 +92,8 @@ a:hover{
 
 .tabs-left{
   list-style: none;
-  padding-left: 60px;
+  margin-left: 30px;
+  padding-left: 10px;
 }
 
 .top-bar{
